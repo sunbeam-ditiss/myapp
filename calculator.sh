@@ -35,6 +35,11 @@ do
 			echo "MULTIPLICATION IS: $result"
 			;;
 		
+		4)
+			result=$((num1 / num2))
+			echo "Division is: $result"
+			;;
+		
 	esac
 
 done

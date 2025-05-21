@@ -32,9 +32,9 @@ do
 		
 		3)
 			result=$((num1 * num2))
-			echo "Multiplication is: $result"
+			echo "MULTIPLICATION IS: $result"
 			;;
-			
+		
 	esac
 
 done

@@ -23,26 +23,27 @@ do
 		
 		1)
 			result=$((num1 + num2))
-			echo "Addition is: $result"
+			echo "ADDITION: $result"
 			;;
 		
 		2)
 			result=$((num1 - num2))
-			echo "Substraction is: $result"
+			echo "SUBSTRACTION: $result"
 			;;
 		
 		3)
 			result=$((num1 * num2))
-			echo "MULTIPLICATION IS: $result"
+			echo "MULTIPLICATION: $result"
 			;;
       
 		5)
 			result=$((num1 % num2))
-			echo "Remainder is: $result"
+			echo "REMAINDER: $result"
+			;;
 
 		4)
 			result=$((num1 / num2))
-			echo "Division is: $result"
+			echo "DIVISION: $result"
       
 			;;
 		

@@ -7,12 +7,12 @@ while true;
 do
 	echo ""
 	echo "---- Menu ----"
-	echo "0. Exit"
-	echo "1. Add"
-	echo "2. Sub"
-	echo "3. Mul"
-	echo "4. Div"
-	echo "5. Mod"
+	echo "0. EXIT"
+	echo "1. ADD"
+	echo "2. SUB"
+	echo "3. MUL"
+	echo "4. DIV"
+	echo "5. MOD"
 	echo "--------------"
 	
 	read -p "Enter choice: " choice
@@ -28,7 +28,7 @@ do
 		
 		2)
 			result=$((num1 - num2))
-			echo "SUBSTRACTION: $result"
+			echo "SUBTRACTION: $result"
 			;;
 		
 		3)

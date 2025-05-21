@@ -12,6 +12,7 @@ do
 	echo "2. Sub"
 	echo "3. Mul"
 	echo "4. Div"
+	echo "5. Mod"
 	echo "--------------"
 	
 	read -p "Enter choice: " choice
@@ -34,10 +35,15 @@ do
 			result=$((num1 * num2))
 			echo "MULTIPLICATION IS: $result"
 			;;
-		
+      
+		5)
+			result=$((num1 % num2))
+			echo "Remainder is: $result"
+
 		4)
 			result=$((num1 / num2))
 			echo "Division is: $result"
+      
 			;;
 		
 	esac

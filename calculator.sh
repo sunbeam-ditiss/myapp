@@ -29,6 +29,11 @@ do
 			result=$((num1 - num2))
 			echo "Substraction is: $result"
 			;;
+		
+		3)
+			result=$((num1 * num2))
+			echo "Multiplication is: $result"
+			;;
 			
 	esac
 

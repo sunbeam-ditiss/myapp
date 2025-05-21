@@ -35,10 +35,15 @@ do
 			result=$((num1 * num2))
 			echo "MULTIPLICATION IS: $result"
 			;;
-		
+      
 		5)
 			result=$((num1 % num2))
 			echo "Remainder is: $result"
+
+		4)
+			result=$((num1 / num2))
+			echo "Division is: $result"
+      
 			;;
 		
 	esac

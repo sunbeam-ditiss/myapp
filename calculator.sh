@@ -19,6 +19,12 @@ do
 		0)
 			exit 0
 			;;
+		
+		1)
+			result=$((num1 + num2))
+			echo "Addition is: $result"
+			;;
+			
 	esac
 
 done

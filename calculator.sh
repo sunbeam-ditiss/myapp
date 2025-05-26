@@ -51,5 +51,7 @@ do
 	esac
 	esac
 	esac
+	esac
+	esac
 
 done
